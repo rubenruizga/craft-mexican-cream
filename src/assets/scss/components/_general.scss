@@ -15,6 +15,11 @@ body, html{
 .general-content{
   padding: 5% 3% 5% 3%;
 };
+.general-content-dark{
+  padding: 5% 3% 5% 3%;
+  background: $primary-color;
+  color: white;
+};
 
 .general-content-header{
   font-size: 1rem;
@@ -51,6 +56,11 @@ body, html{
 
 .general-subheader{
   color: $medium-color;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.general-subheader-dark{
   font-size: 1.5rem;
   font-weight: 100;
 }
