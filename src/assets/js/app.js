@@ -10,7 +10,7 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
-window.onload = function initMap() {
+/*window.onload = function initMap() {
   var location = {lat: 28.6748368, lng: -106.0822063};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
@@ -23,4 +23,4 @@ window.onload = function initMap() {
     position: location,
     map: map
   });
-}
+}*/

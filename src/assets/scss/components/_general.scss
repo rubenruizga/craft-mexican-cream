@@ -1,8 +1,4 @@
-$light-gray: #F7F7F7;
-$medium-gray: #9B9B9B;
-$dark-gray: #2F2F2F;
-$black: #0a0a0a;
-$white: #fefefe;
+@import "./base/variables";
 
 body, html{
   margin: 0;
@@ -15,26 +11,55 @@ body, html{
 .general-color{
   color: #b7b701;
 };
+
+.general-content{
+  padding: 5% 3% 5% 3%;
+};
+
+.general-content-header{
+  font-size: 1rem;
+  font-weight: bold;
+};
+
+.general-hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $light-color;
+}
+
 .general-hundred-vh{
   height: 100vh;
 }
+
 .general-full-height{
   height: 100%;
 }
+
 .general-full-width{
   width: 100%;
 }
+
 .general-text-middle{
   display: inline-block;
   vertical-align: middle;
 }
+
 .second-inline{
   display: inline-block;
 }
-.general-dark{
-  background: $dark-gray;
-  color: $white;
+
+.general-subheader{
+  color: $medium-color;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
+
+.general-title{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .general-top-marging{
  margin-top: 5%;
 }
