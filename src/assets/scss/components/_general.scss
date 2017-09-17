@@ -1,0 +1,40 @@
+$light-gray: #F7F7F7;
+$medium-gray: #9B9B9B;
+$dark-gray: #2F2F2F;
+$black: #0a0a0a;
+$white: #fefefe;
+
+body, html{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.general-border-bottom{
+  border-bottom: 1px solid #f0f0f0;
+}
+.general-color{
+  color: #b7b701;
+};
+.general-hundred-vh{
+  height: 100vh;
+}
+.general-full-height{
+  height: 100%;
+}
+.general-full-width{
+  width: 100%;
+}
+.general-text-middle{
+  display: inline-block;
+  vertical-align: middle;
+}
+.second-inline{
+  display: inline-block;
+}
+.general-dark{
+  background: $dark-gray;
+  color: $white;
+}
+.general-top-marging{
+ margin-top: 5%;
+}
